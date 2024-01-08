@@ -36,3 +36,27 @@
     transform: rotate(360deg);
   }
 }
+ol{
+  font-size: larger;
+  color: blue;
+  text-align: left;
+}
+table,tr,td{
+  border: 2px solid black;
+  border-collapse: collapse;
+  row-gap: 4px;
+  width: 50px;
+  background-color: burlywood;
+}
+fieldset{
+  width: 100px;
+}
+button{
+  padding: 10px;
+  background-color: chartreuse;
+  border-radius: 4px;
+  size: 100px;
+  font-size: 100px;
+  justify-content: center;
+
+}
