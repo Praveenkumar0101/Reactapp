@@ -1,20 +1,25 @@
 import logo from './logo.svg';
 import './App.css';  
-import Btn from "./components/button"
-import List1 from "./components/List/List"
-import Form1 from "./components/Forms/Forms"
+// import Apicall from './components/apicall';
+// import ButtonComponent from "./components/Set state/Button"
+// import fetchData from './components/apicall';
+// import Btn from "./components/button"
+// import List1 from "./components/List/List"
+// import Form1 from "./components/Forms/Forms"
+// import {Todolist} from "./components/List/Todolist"
 
-function App() {
-  return (
-    <div>
-    <Btn/>
-    <List1/>
-    <Form1/>
+// function App() {
+//   return (
+//     <div>
+//      <Btn/>
+//     <List1/>
+//     <Form1/> */ }
+//     <Todolist/>
 
 
-    </div>
-    )
-}
+//     </div>
+//     )
+// }
 
 //     <div className="App">
 //       <p>List</p>
@@ -60,5 +65,50 @@ function App() {
 //    </div> 
 // )
 // }
-export default App;
+// export default App;
+// import {Todolist} from "./components/List/Todolist"
+// import Apicall from './components/apicall';
+import ExternalStyles from "./components/styles/External.js"
+import InlineStyles from "./components/styles/Inline"
+// import moduleStlyles from "./components/styles/Styles.js"
+import Mounting from "./components/Lifecycle/Lifecycle.js"
+import { Parant } from "./components/Props/Props.js"
+import BoostapLayout from "./components/Boostrap/Layout.js"
+import Spinners from "./components/Loaders/Loaders.js"
+import Update from './components/Loaders/Loaders.js';
+import UseStateExample from "./components/Increment/Usestate.js"
+import Seconds from "./components/Increment/Timer.js";
+import UseSateExample2 from "./components/Increment/Salary.js"
+function App() {
+  return (
+    <div>
+     
+    
+     {/* <ButtonComponent/> */}
+    {/* <Todolist/> */}
+    {/* <Apicall/>
+    <button/> */}
+   {/* <InlineStyles/>     */}
+   {/* <ExternalStyles/> */}
+   {/* <moduleStlyles/> */}
+   {/* <button/> */}
+    {/* <Parant/> */}
+    {/* <Mounting/>
+    <Spinners/> */}
+    {/* <BoostapLayout/> */}
+    {/* <Mounting/>
+    <Update/> */}
+    <UseStateExample/>
+    <Seconds/>
+    <UseSateExample2/>
+   
+    
+    
+  
+    </div>
+    )
+}
+export default App
+
+
 

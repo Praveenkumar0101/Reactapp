@@ -41,12 +41,13 @@ ol{
   color: blue;
   text-align: left;
 }
-table,tr,td{
+table,tr,td,th{
   border: 2px solid black;
   border-collapse: collapse;
   row-gap: 4px;
   width: 50px;
   background-color: burlywood;
+  width: 300px;
 }
 fieldset{
   width: 100px;

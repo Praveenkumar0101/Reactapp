@@ -1,0 +1,24 @@
+
+
+
+
+
+
+.greetings{
+    color:blue;
+     font-size: 100px;
+     font-family: Elephant;
+     text-align: center;
+     transform-origin: -40%;
+     transform: rotate(45deg);
+    
+    
+}
+
+/* // const moduleStlyles=()=>{
+//     return(
+//         <h4 className={styles.hello}>module Styles</h4>
+//     )
+// }
+
+// export default moduleStlyles */
